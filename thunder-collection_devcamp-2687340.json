@@ -1,0 +1,223 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "devcamp-2687340",
+    "dateExported": "2023-11-23T04:55:45.853Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "bootcamps",
+            "containerId": "",
+            "created": "2023-11-02T02:48:29.406Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "36b2945c-653a-4db1-999d-617bd5ae79b3",
+            "name": "courses",
+            "containerId": "",
+            "created": "2023-11-02T02:48:29.407Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "aa37ebc1-a15d-434c-94d4-305a708a97e1",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "Consultar todos los bootcamps",
+            "url": "http://127.0.0.1:8888/api/v1/bootcamps/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-02T02:48:29.406Z",
+            "modified": "2023-11-23T01:57:40.148Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8874574e-0404-405f-a2fe-92ba74775631",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "consultar bootcamp por id ",
+            "url": "http://127.0.0.1:8888/api/v1/bootcamps/65431447fd37e1ee1aae3268",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-02T02:48:29.407Z",
+            "modified": "2023-11-23T02:01:58.303Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6acf557e-92fb-4f16-b8dc-b1790d8ae4f5",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "crear bootcamp",
+            "url": "http://127.0.0.1:8888/api/v1/bootcamps/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-02T02:48:29.408Z",
+            "modified": "2023-11-23T03:09:33.517Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"P\",\n  \"phone\" : 123456789,\n  \"address\": \"21231321320221548721\",\n  \"topics\" : [\n      \"SENA\"\n  ],\n  \"createdAd\" : \"2023-11-1\"  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "133a44b1-64ac-49ec-8607-ac2ff0456789",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "editar bootcamp",
+            "url": "http://127.0.0.1:8000/bootcamps/5",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-11-02T02:48:29.409Z",
+            "modified": "2023-11-02T02:48:29.409Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b9830010-fb9e-4f18-b071-984f34c33fca",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "eliminar bootcamp",
+            "url": "http://127.0.0.1:8888/api/v1/bootcamps/6543159dfd37e1ee1aae3269",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-11-02T02:48:29.410Z",
+            "modified": "2023-11-23T04:53:28.768Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b3dd5839-11b0-424d-9084-361e4dd37555",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "36b2945c-653a-4db1-999d-617bd5ae79b3",
+            "name": "Consultar Todos los Cursos",
+            "url": "http://127.0.0.1:8888/api/v1/courses/",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-11-02T02:48:29.411Z",
+            "modified": "2023-11-23T04:39:08.707Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "36031a82-555b-4e0a-b7c5-a81db239a73e",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "36b2945c-653a-4db1-999d-617bd5ae79b3",
+            "name": "Consultar Curso por id ",
+            "url": "http://127.0.0.1:8888/api/v1/courses/655ed98d8b7372dcdc8292cd",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-11-02T02:48:29.412Z",
+            "modified": "2023-11-23T04:48:26.828Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2934bfab-f3d2-42d6-bc44-18647638ae6e",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "36b2945c-653a-4db1-999d-617bd5ae79b3",
+            "name": "Editar Cliente",
+            "url": "http://127.0.0.1:8888/api/v1/courses/655ed98d8b7372dcdc8292cd",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2023-11-02T02:48:29.413Z",
+            "modified": "2023-11-23T04:52:31.164Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tittle\": \"Analisis y desarrollo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9d6d5aff-8dde-4570-b9e6-e85bc7c5bf37",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "36b2945c-653a-4db1-999d-617bd5ae79b3",
+            "name": "Crear Curso",
+            "url": "http://127.0.0.1:8888/api/v1/courses",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-11-02T02:48:29.414Z",
+            "modified": "2023-11-23T04:47:05.520Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"tittle\" : \"NOSEsssssss\",\n  \"description\":\"sadasdadsadwaw\",\n  \"weeks\": 6,\n  \"enroll_cost\": 900000,\n  \"minimum_skill\":[\n    \"Beginner\"\n    ]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1e276037-d3ad-4f01-892f-a1c9175573fb",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "36b2945c-653a-4db1-999d-617bd5ae79b3",
+            "name": "eliminar curso",
+            "url": "http://127.0.0.1:8888/api/v1/courses/655ed98d8b7372dcdc8292cd",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2023-11-02T02:48:29.415Z",
+            "modified": "2023-11-23T04:51:23.593Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1f45a7ee-79f4-4e7d-b307-62729af78ec4",
+            "colId": "b1842263-adbb-462b-9f47-95c22cd95e27",
+            "containerId": "56d7e914-5064-41e1-94ca-f3e912d26a26",
+            "name": "Actualizar bootcamp",
+            "url": "http://127.0.0.1:8888/api/v1/bootcamps/65431447fd37e1ee1aae3268",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2023-11-23T03:16:29.132Z",
+            "modified": "2023-11-23T03:21:08.621Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"address\": \"sena calle 65\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
